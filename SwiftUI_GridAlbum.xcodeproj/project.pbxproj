@@ -12,6 +12,7 @@
 		F0CF985227A42DF600A21399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0CF985127A42DF600A21399 /* Assets.xcassets */; };
 		F0CF985527A42DF600A21399 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0CF985427A42DF600A21399 /* Preview Assets.xcassets */; };
 		F0CF985C27A4331E00A21399 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CF985B27A4331E00A21399 /* Item.swift */; };
+		F0CF985E27A4C58D00A21399 /* SingleLow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CF985D27A4C58D00A21399 /* SingleLow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		F0CF985127A42DF600A21399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0CF985427A42DF600A21399 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F0CF985B27A4331E00A21399 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F0CF985D27A4C58D00A21399 /* SingleLow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				F0CF984D27A42DF500A21399 /* SwiftUI_GridAlbumApp.swift */,
 				F0CF984F27A42DF500A21399 /* ContentView.swift */,
+				F0CF985D27A4C58D00A21399 /* SingleLow.swift */,
 				F0CF985B27A4331E00A21399 /* Item.swift */,
 				F0CF985127A42DF600A21399 /* Assets.xcassets */,
 				F0CF985327A42DF600A21399 /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				F0CF985027A42DF500A21399 /* ContentView.swift in Sources */,
 				F0CF985C27A4331E00A21399 /* Item.swift in Sources */,
+				F0CF985E27A4C58D00A21399 /* SingleLow.swift in Sources */,
 				F0CF984E27A42DF500A21399 /* SwiftUI_GridAlbumApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

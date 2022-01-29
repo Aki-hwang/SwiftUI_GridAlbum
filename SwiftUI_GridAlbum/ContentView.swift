@@ -39,9 +39,22 @@ struct ContentView: View {
             ScrollView{
                 LazyVGrid(columns: selectedGridType.columns) {
                     ForEach(items){ ii in
-                        Image(ii.imageName)
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
+//                        switch selectedGridType {
+//                        case .single:
+//                            SingleRow(item: ii)
+//                        case .double:
+//                              SingleRow(item: ii)
+////                        case .triple:
+////                            <#code#>
+////                        case .adative:
+////                            <#code#>
+//                        default :
+                            Image(ii.imageName)
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+//                        }
+                       
+                         
                     }
                 }
                
@@ -56,6 +69,9 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+
 
 struct GridTypePicker: View {
     
